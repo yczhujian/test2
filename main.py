@@ -32,10 +32,10 @@ def main():
 
     if "messages" not in st.session_state:
         st.session_state.messages = [
-            SystemMessage(content="冠和权AI机器人助力您的研发工作.")
+            SystemMessage(content="我是优秀的人工智能系统.")
         ]
 
-    st.header('冠和权专属chatGPT :books:')
+    st.header('冠和权专属人工智能 :books:')
 
     with st.sidebar:
         user_input = st.text_input("您的消息:", key="user_input")
