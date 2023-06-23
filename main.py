@@ -10,6 +10,7 @@ from langchain.schema import (
     AIMessage
 )
 
+# 初始化
 def init():
     load_dotenv()
     if os.getenv("OPENAI_API_KEY") is None or os.getenv("OPENAI_API_KEY") == "":
